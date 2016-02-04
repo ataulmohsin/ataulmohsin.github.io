@@ -1,0 +1,29 @@
+# Site settings
+title: Ata ul Mohsin 
+description: 'Project Manager at a healthcare IT company, lazy, ailurophile.' 
+url: 'http://ataulmohsin.com' 
+baseurl: '/'
+# google_analytics: 'UA-XXXXXX-X'
+
+author:
+  name: 'Ata ul Mohsin'
+  email: hello@ataulmohsin.com
+  twitter_username: mohcinshah 
+  github_username:  ataulmohsin 
+  linkedin_username: ataulmohsin
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: pygments
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
