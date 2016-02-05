@@ -1,6 +1,6 @@
 # Site settings
 title: Ata ul Mohsin 
-description: 'Project Manager at a healthcare IT company, lazy, ailurophile.' 
+description: 'Project Manager at a healthIT company, lazy, ailurophile. Nocturnal obsessions include Python and Linux.' 
 url: 'http://ataulmohsin.com' 
 baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
@@ -9,7 +9,8 @@ author:
   name: 'Ata ul Mohsin'
   email: hello@ataulmohsin.com
   twitter_username: mohcinshah 
-  github_username:  ataulmohsin 
+  -- github_username: ataulmohsin 
+  lastfm_username: mohcinshah
   linkedin_username: ataulmohsin
 
 # Build settings
