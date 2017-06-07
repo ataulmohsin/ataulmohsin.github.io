@@ -1,15 +1,15 @@
 # Site settings
-title: Ata ul Mohsin 
-description: 'Project Manager at a digital health company, lazy, ailurophile. Nocturnal obsessions include Python and Linux.' 
-url: 'http://ataulmohsin.com' 
+title: Ata ul Mohsin
+description: 'Project Manager at a digital health company, lazy, ailurophile. Nocturnal obsessions include Python and Linux.'
+url: 'http://ataulmohsin.com'
 baseurl: '/'
-google_analytics: 'UA-70415595-1' 
+google_analytics: 'UA-70415595-1'
 
 author:
   name: 'Ata ul Mohsin'
-  twitter_username: ataulmohsin_ 
+  twitter_username: ataulmohsin_
   linkedin_username: ataulmohsin
-  github_username: ataulmohsin 
+  github_username: ataulmohsin
   lastfm_username: mohcinshah
 
 # Build settings
@@ -17,7 +17,7 @@ destination: _site
 paginate: 10
 permalink: /:year/:title/
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 kramdown:
   # use Github Flavored Markdown
